@@ -1,0 +1,130 @@
+.Card{
+    width: 650px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
+    padding: 12px 16px;
+    justify-content: space-between;
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    transition: all 0.3s ease-in-out;
+    &:hover{
+        box-shadow: 0px 0px 20px rgba(0,0,0,0.2);
+        transform: translateY(-5px);
+    }
+    @media only screen and (max-width: 768px){
+        padding: 10px;
+        gap: 8px;
+        width: 300px;
+    }
+
+    /* &:hover ${Document}{
+        display: flex;
+    } */
+
+    &:hover .expDesc{
+        overflow: visible;
+        -webkit-line-clamp: unset;
+
+    }
+
+    border: 0.1px solid #306EE8;
+    box-shadow: rgba(23, 92, 230, 0.15) 0px 4px 24px;
+}
+
+.Top{
+    width: 100%;
+    display: flex;
+    gap: 12px;
+}
+
+.expimgdiv{
+    width: 50px;
+    height: 50px;
+    background-color: #000;
+    border-radius: 10px;
+    margin-top: 4px;
+    @media only screen and (max-width: 768px){
+        width: 40px;
+        height: 40px;
+    }
+}
+
+.expSubhead{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.expRole{
+    font-size: 18px;
+    font-weight: 600;
+    color: #b0b0b0;
+    @media only screen and (max-width: 768px){
+        font-size: 14px;
+    }
+}
+
+.expCompany{
+    font-size: 14px;
+    font-weight: 500;
+    color: #c1c1c1;
+    @media only screen and (max-width: 768px){
+        font-size: 12px;
+    }
+}
+
+.expDuration{
+    font-size: 12px;
+    font-weight: 400;
+    color: #9c9c9c;
+    @media only screen and (max-width: 768px){
+        font-size: 10px;
+    }
+}
+
+.expBody{
+    width: 100%;
+    font-size: 15px;
+    font-weight: 400;
+    color: #b0b0b0;
+    margin-bottom: 10px;
+    @media only screen and (max-width: 768px){
+        font-size: 12px;
+    }
+}
+
+.expDesc{
+    overflow: hidden;
+display: -webkit-box;
+max-width: 100%;
+-webkit-line-clamp: 4;
+-webkit-box-orient: vertical;
+text-overflow: ellipsis;
+}
+
+
+
+.skills{
+    width: 100%;
+    display: flex;
+    gap: 12px;
+    margin-top: 10px;
+}
+
+.itemWrapper{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+}
+
+.skill{
+    font-size: 15px;
+    font-weight: 400;
+    color: #7f7f7f;
+    @media only screen and (max-width: 768px){
+        font-size: 12px;
+    }
+}

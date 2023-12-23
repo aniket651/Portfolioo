@@ -1,0 +1,37 @@
+/* Style the navbar container */
+.navbar {
+    background-color: #000000;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+/* Style the PortFolio text */
+.col1 {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+/* Style the list items in the navbar */
+.col2 ul {
+    list-style: none;
+    padding: 0;
+}
+
+.col2 li {
+    display: inline;
+    margin-right: 20px;
+}
+
+/* Style the list items when hovered */
+.col2 li:hover {
+    color: blue;
+    cursor: pointer;
+}
+
+/* Style the third column (col3) */
+.col3 {
+    /* You can add styles for the third column if needed */
+}
