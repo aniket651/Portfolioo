@@ -1,6 +1,6 @@
 import React from 'react'
-import HeroImg from "../images/HeroImg.jpg"
-import Primg from "../images/primage.jpeg"
+// import HeroImg from "../images/HeroImg.jpg"
+// import Primg from "../images/primage.jpeg"
 import "./HeroSection.css"
 import { Bio } from "../data/constants.js"
 import Typewriter from 'typewriter-effect';
