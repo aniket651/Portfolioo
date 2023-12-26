@@ -1,0 +1,59 @@
+.FooterContainer{
+    width: 100%;
+    padding: 2rem 0;
+    display: flex;
+    justify-content: center;
+}
+
+.FooterWrapper{
+    width: 100%;
+    max-width: 1200px;
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+    align-items: center;
+    padding: 1rem;
+    color: #000000;
+}
+
+.Logo{
+    font-weight:400;
+    font-size:x-large;
+    color: #000000;
+}
+
+.Nav{
+    width: 100%;
+    max-width: 800px;
+    margin-top: 0.5rem;
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+    justify-content: center;
+    @media (max-width: 768px) {
+      flex-wrap: wrap;
+      gap: 1rem;
+      justify-content: center;
+      text-align: center;
+      font-size: 12px;
+    }
+}
+
+.NavLink{
+    color: #000000;
+    text-decoration: none;
+    font-size: 1.2rem;
+    transition: color 0.2s ease-in-out;
+    &:hover {
+      color: #8e8754;
+    }
+    @media (max-width: 768px) {
+      font-size: 1rem;
+    }
+}
+
+.SocialMediaIcons{
+    display: flex;
+    margin-top: 1rem;
+}
+
