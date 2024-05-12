@@ -6,7 +6,7 @@ import "./Projects.css";
 function Projects() {
   return (
     // <div className='projectconatiner'>
-      <div className='project-wrap'>
+      <div className='project-wrap'  id="project">
         <div className='projecthead'>Projects</div>
         <div className='projectsubtitle'>Here are some of my projects on which I have been working on for the past 3 years.</div>
 

@@ -5,7 +5,7 @@ import "./Experience.css";
 
 function Experience() {
   return (
-    <div className='conatiner'>
+    <div className='conatiner'  id="experience">
       <div className='experiencehead'>Experiences</div>
       <div className='experiencesubtitle'>Here are some of my experiences on which I have been working on for the past 3 years.</div>
 

@@ -5,7 +5,7 @@ import "./Skills.css";
 
 function Skills() {
   return (
-    <div className='conatiner'>
+    <div className='conatiner' id='skills'>
       <div className='skillhead'>Skills</div>
       <div className='skillsubtitle'>Here are some of my skills on which I have been working on for the past 3 years.</div>
 

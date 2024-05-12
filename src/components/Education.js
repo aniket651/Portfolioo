@@ -20,7 +20,7 @@ const EducationCard = ({ key, obj }) => {
 
 function Education() {
   return (
-    <div className='educationContainer'>
+    <div className='educationContainer'  id="education">
       <div className='educationWrapper'>
         <div className='edTitle'>Education</div>
         <div className='edCards'>

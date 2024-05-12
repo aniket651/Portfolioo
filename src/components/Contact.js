@@ -20,7 +20,7 @@ function Contact() {
 
 
   return (
-    <div className='Container'>
+    <div className='Container'  id="contact">
       <div className='Wrapper'>
         <div className='Title'>Contact</div>
         <div className='Disc'>Feel free to reach out to me for any questions or opportunities!</div>
