@@ -3,7 +3,7 @@ import ProjectBox from "./ProjectBox.js"
 import { projects } from '../data/constants.js'
 import "./Projects.css";
 
-function Projects({openModal, setOpenModal}) {
+function Projects() {
   return (
     // <div className='projectconatiner'>
       <div className='project-wrap'>
@@ -12,7 +12,7 @@ function Projects({openModal, setOpenModal}) {
 
         <div className='projectContainers'>
           {projects.map((e) => {
-            return <ProjectBox key={e.title} setOpenModal={setOpenModal} obj={e}  />
+            return <ProjectBox key={e.title} obj={e}  />
           })}
 
         </div>

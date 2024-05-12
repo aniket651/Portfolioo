@@ -1,5 +1,4 @@
 .herosection {
-    /* background: ${({ theme }) => theme.card_light}; */
     background-color: #F1EFEF;
     display: flex;
     justify-content: center;
@@ -13,7 +12,6 @@
     }
     z-index: 1;
 
-    clip-path: polygon(0 0, 100% 0, 100% 100%, 70% 95%, 0 100%);
 }
 
 .row{
@@ -157,8 +155,6 @@ span{
     font-weight: 600;
     transition: all 0.2s ease-in-out !important;
     background: rgb(0, 0, 0);
-    /* background: linear-gradient(225deg, rgb(241, 244, 215) 0%, hsla(294, 100%, 50%, 1) 100%); */
-    /* background: -moz-linear-gradient(225deg, hsla(271, 100%, 50%, 1) 0%, hsla(294, 100%, 50%, 1) 100%); */
     background: #8e8754;
     box-shadow:  20px 20px 60px #F1EFEF,
     -20px -20px 60px #F1EFEF;

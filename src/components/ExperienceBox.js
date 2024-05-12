@@ -5,9 +5,6 @@ function ExperienceBox(props) {
   return (
     <div className='expbox Card'>
       <div className='expHead Top'>
-        {/* <div >
-          <img className='expimgdiv' src={props.obj.img}></img>
-        </div> */}
         <div className='expSubhead'>
           <div className='expRole'>{props.obj.role}</div>
           <div className='expCompany'>{props.obj.company}</div>

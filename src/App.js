@@ -16,27 +16,18 @@ import ProjectDetails from "./components/ProjectDetails";
 
 function App() {
 
-  const [openModal, setOpenModal] = useState({ state: false, project: null });
-  console.log(openModal)
 
   return (
     <div className="App">
       <Navbar />
       <div className="restall">
         <HeroSection />
-        <div>
-          <Skills />
-          <Experience />
-        </div>
-        <Projects openModal={openModal} setOpenModal={setOpenModal} />
-        <div>
-          <Education />
-          <Contact />
-        </div>
+        <Skills />
+        <Experience />
+        <Projects  />
+        <Education />
+        <Contact />
         <Footer />
-        {openModal.state &&
-          <ProjectDetails openModal={openModal} setOpenModal={setOpenModal} />
-        }
       </div>
     </div>
   );

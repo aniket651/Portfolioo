@@ -5,9 +5,6 @@ import "./Education.css"
 const EducationCard = ({ key, obj }) => {
   return (
     <div className='EdContainer'>
-      {/* <div className='edImage'>
-        <img className='edImage' src={obj.img}></img>
-      </div> */}
       <div className='edCardBody'>
         <div className='name'>{obj.school}</div>
         <div className='degree'>{obj.degree}</div>
