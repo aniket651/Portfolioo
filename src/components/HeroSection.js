@@ -32,7 +32,7 @@ function HeroSection() {
           </div>
           
           
-          <button className='resume'><a href='https://drive.google.com/file/d/1hQ7zH3Tkkiw6jiSMVmxyfcYoA8vPeoAU/view?usp=drive_link' target='_blank'> View Resume </a></button>
+          <button className='resume'><a href={Bio.resume} target='_blank'> View Resume </a></button>
         
 
         </div>

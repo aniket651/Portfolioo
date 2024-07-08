@@ -8,7 +8,7 @@ export const Bio = {
       "I'm a final year undergraduate at BIT Mesra and an avid competitive programmer interested in web development. My aspiration is to become a proficient software engineer. I have an insatiable desire to learn and a commitment to honing my skills in this field. With developing technical knowledge, a focus on problem-solving, and a deep passion for coding, I strive to grow into a capable software engineer.",
     github: "https://github.com/aniket651",
     resume:
-      "https://drive.google.com/file/d/1XNkDB3SdPz7EZlh4SDq_VYVA7A5WkWsK/view?usp=sharing",
+      "https://drive.google.com/file/d/1KLqSyNYAVkW7LKVse2exIo6Dx-VIIPpv/view?usp=drive_link",
     linkedin: "https://www.linkedin.com/in/aniket-pandey-b80654219/"
   };
   
@@ -223,7 +223,7 @@ export const Bio = {
       ],
       category: "web app",
       github: "https://github.com/aniket651/work-X",
-      webapp: "https://workx-frontend-2bkl.onrender.com",
+      webapp: "https://work-x.vercel.app/",
     },
     {
       id: 1,
